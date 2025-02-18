@@ -412,18 +412,25 @@ ul li:last-child {
     gap: 10px;
 }
 
+.btn1{
+    width: 117px;
+    height: 41px;
+    border-radius: 117px;  
+    border: 1px solid #D6DADE;
+    background-color: white; 
+}
 .btn{
     width: 117px;
     height: 41px;
-    border-radius: 117px;
-    border: 1px solid #D6DADE;
-    background-color: white;
+    border-radius: 117px;  
+    border: none;
+    background-color: #EFF3F6;
 }
 
-.btn:hover{
-    border: none;
-    transition: 0.1s;
-    background-color: #EFF3F6;
+.btn:hover{ 
+    transition: 0.1s;  
+    border: 1px solid #D6DADE;
+    background-color: white; 
 }
 
 .product-details{ 
@@ -454,6 +461,214 @@ strong {
     font-weight: bold;
     color: #333;
 }
+
+.main--cards{
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.product__card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product--h1{
+    font-size: 28px;  
+}
+.img--card{
+    width: 275px;
+    height: 207px;
+    background-color: #EFF3F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards--btn{
+    display: flex;
+}
+.card--btn{
+    width: 155px;
+    height: 46px;  
+    color: #BF3B3B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none; 
+    border: 2px solid #E6E6E6;
+    background-color: white;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.card--btn2{
+    width: 125px;
+    height: 46px;  
+    color: #BF3B3B; 
+    border: none; 
+    border: 2px solid #E6E6E6;
+    background-color: white;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+
+.btn--img{
+    margin-right: 10px;
+}
+.text--main {
+    background-color: #f8fafc;  
+    padding: 20px;
+    border-radius: 10px;  
+    font-family: Arial, sans-serif;
+    color: #0f172a;  
+    line-height: 1.6; 
+    margin-top: 50px;
+}
+
+.text--main h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0f172a;  
+    margin-bottom: 15px;
+}
+
+.text--main p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #0b1c36;  
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer--container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.footer--logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer--desc {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.footer--title {
+    font-size: 16px;
+    color: #ff3b30;  
+    margin: 15px 0 5px;
+}
+
+.footer--text {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer--btn {
+    background-color: white;
+    color: #ff3b30;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.footer--btn:hover {
+    background-color: #ff3b30;
+    color: white;
+}
+
+.footer--phone, 
+.footer--address, 
+.footer--email, 
+.footer--time {
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer--input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #1c2f4d;
+    color: white;
+    text-align: center;
+}
+
+.footer--input::placeholder {
+    color: #a0aec0;
+}
+
+.footer--payment, .footer--social, .footer--bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer--icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.footer--payment-methods img {
+    width: 60px;
+    margin: 10px;
+}
+
+.footer--social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.footer--bottom p, .footer--bottom a {
+    font-size: 12px;
+    color: #a0aec0;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer--bottom a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer--company {
+    color: #ff3b30;
+    font-weight: bold;
+}
+
+
+
+
 
 
 
